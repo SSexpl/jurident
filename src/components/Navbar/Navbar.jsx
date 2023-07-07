@@ -6,6 +6,10 @@ import { FaBars, FaTimes } from "react-icons/fa";
 import { IconContext } from "react-icons/lib";
 import { NavLink } from "react-router-dom";
 import { useAuth0 } from "@auth0/auth0-react";
+<<<<<<< HEAD
+=======
+import log from '../../assets/new jd 2.png'
+>>>>>>> a8695c1beec8746b6266920605df2082099b49dc
 
 function Navbar() {
   const [click, setClick] = useState(false);
@@ -20,7 +24,7 @@ function Navbar() {
         <nav className="navbar">
           <div className="navbar-container ">
             <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
-              <GiRocketThruster className="navbar-icon" />
+              <img src={log} className="navbar-icon" />
               JURIDENT
             </Link>
             <div className="menu-icon" onClick={handleClick}>
