@@ -12,7 +12,7 @@ const ChangePass_Page = () => {
           <ProfileBox />
         </div>
         <div className="w-7/10 ">
-          <FormChangePassword />
+          <ChangePassBox/>
         </div>
       </div>
     </>
